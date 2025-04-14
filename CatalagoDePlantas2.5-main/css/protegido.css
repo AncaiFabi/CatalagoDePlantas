@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #a8e6cf, #dcedc1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    background-color: white;
+    padding: 35px 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #2e7d32;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #81c784;
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+.mensagem {
+    font-weight: bold;
+    margin-bottom: 18px;
+    color: #2e7d32;
+}
+
+.logout {
+    margin-top: 20px;
+}
+
+.logout a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.aviso {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ffeeba;
+}
+
+select {   
+    width: 100%;    
+    padding: 12px;    
+    margin-bottom: 18px;    
+    border-radius: 6px;    
+    border: 1px solid #ccc;    
+    font-size: 15px;    
+    transition: 0.3s;
+}
+
+select:focus {    
+    border-color: #81c784;    
+    outline: none;
+}

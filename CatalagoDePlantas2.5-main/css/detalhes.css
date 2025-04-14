@@ -1,0 +1,65 @@
+/* === estilos da página detalhes.php === */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9f2;
+    margin: 0;
+    padding: 0;
+}
+
+.detalhes {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.detalhes img {
+    display: block;
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.detalhes h2 {
+    margin-top: 20px;
+    color: #2e7d32;
+    text-align: center;
+}
+
+.info-extra {
+    background-color: #e6f9ec;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.info-extra p {
+    margin: 8px 0;
+    color: #2e7d32;
+}
+
+.info-extra strong {
+    color: #1b5e20;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    background-color: #45a049;
+}

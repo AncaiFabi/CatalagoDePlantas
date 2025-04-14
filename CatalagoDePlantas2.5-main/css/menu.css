@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    background-color: rgb(65, 107, 69);
+    padding: 20px;
+    text-align: center;
+}
+
+.topo img {
+    height: 90px;
+}
+
+nav {
+    background-color: #1e4d2b;
+    padding: 12px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #c7eac3;
+}
